@@ -122,11 +122,12 @@ window
 ```
 
 ℹ️ Keep in mind that the `gql` function is not part of aiware.js and comes out of the box with this boilerplate.
+<br />
+<br />
 
 ## Using Events
 
 To communicate with aiware.js, subscribe to events. To do that, simply call the `on` method on with the event name you need. The second callback will be fired whenever the event is fired.
-[See here for more about the events]()
 Visit [here]() for more about the events.
 
 ```js
