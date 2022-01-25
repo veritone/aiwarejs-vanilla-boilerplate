@@ -8,7 +8,7 @@
 
 ### A simple way to get started using aiware.js with vanilla javascript.
 
-To reach out the full documentation visit [the official docs](https://docs.veritone.com/#/sdk/initialize-the-sdk).
+To reach out the full documentation visit [the official docs](https://docs.veritone.com/#/sdk/initialize-the-sdk). Also, see the changelog [here](https://github.com/veritone/aiware-apps/releases).
 
 <br />
 
