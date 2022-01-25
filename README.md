@@ -82,7 +82,7 @@ Visit [here](https://docs.veritone.com/#/sdk/mount-a-widget) for more about widg
 ```js
 window.aiware.mountWidget({
   name: 'APP_BAR',
-  widgetId: 'app-bar',
+  elementId: 'app-bar',
   config: {
     title: 'My Aiware.js Application',
     backgroundColor: '#1f2937',
