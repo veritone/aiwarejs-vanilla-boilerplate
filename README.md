@@ -127,7 +127,7 @@ window
 
 ## Using Events
 
-To communicate with aiware.js, subscribe to events. To do that, simply call the `on` method on with the event name you need. The second callback will be fired whenever the event is fired.
+To communicate with aiware.js, subscribe to events. To do that, simply call the `on` method with the event name you need. The second callback will be called whenever an event is fired.
 Visit [here]() for more about the events.
 
 ```js
@@ -143,7 +143,7 @@ window.aiware.on('fileUpload', function (error, file) {
 
 ### Removing an event
 
-If you want to delete the event that you registered, simply call the `off` method on the `aiware` instance.
+If you want to delete an event that you registered, simply call the `off` method on the `aiware` instance.
 
 ```js
 window.aiware.off('fileUpload');
