@@ -75,7 +75,7 @@ window.aiware.init(
 ## Mount a widget
 
 You can mount widgets and configure them depending on your needs. <br/>
-Visit [here](https://docs.veritone.com/#/sdk/initialize-the-sdk) for more about widget mounting.
+Visit [here](https://docs.veritone.com/#/sdk/mount-a-widget) for more about widget mounting.
 
 ### Example of mounting a widget
 
