@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aiware.js - Vanilla Starter</title>
+
+    <link
+      rel="stylesheet"
+      href="https://get.aiware.com/js/v1/js-core.umd.css"
+    />
+  </head>
+  <body>
+    <!-- 🌟 start deleting here 🌟 -->
+    <style>
+      body {
+        font-family: 'Nunito', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+          Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+          sans-serif;
+      }
+      a {
+        color: #1f2937;
+      }
+      a:hover {
+        color: #1871e8;
+      }
+    </style>
+    <br />
+    <div align="center">
+      <img width="180" src="./static/logo.png" />
+      <br />
+      <br />
+      <h1>👋 Hello World!</h1>
+      <p>
+        <a
+          target="_blank"
+          href="https://docs.veritone.com/#/sdk/initialize-the-sdk"
+          >Official Docs</a
+        >
+        |
+        <a
+          target="_blank"
+          href="https://github.com/veritone/aiwarejs-vanilla-boilerplate"
+          >Github Page</a
+        >
+        |
+        <a
+          target="_blank"
+          href="https://github.com/veritone/aiwarejs-vanilla-boilerplate/issues"
+          >Report a Bug</a
+        >
+      </p>
+    </div>
+    <!-- 🌟 end deleting here 🌟 -->
+
+    <!-- load aiware.js -->
+    <script src="./lib/utils.js"></script>
+    <script src="https://get.aiware.com/js/v1"></script>
+    <script>
+      aiware.init(
+        {
+          baseUrl: 'https://api.stage.us-1.veritone.com/v3/graphql',
+          applicationId: 'app-123',
+          withAuth: true,
+          authToken: '<your-auth-token>', // Get this from `/v1/admin/current-user`
+        },
+        function () {
+          aiware.mountWidget({
+            name: 'APP_BAR',
+            widgetId: 'app-bar',
+            config: {
+              title: 'My Aiware.js Application',
+              backgroundColor: '#1f2937',
+            },
+          });
+        }
+      );
+    </script>
+  </body>
+</html>
