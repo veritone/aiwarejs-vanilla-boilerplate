@@ -82,6 +82,7 @@ Visit [here](https://docs.veritone.com/#/sdk/initialize-the-sdk) for more about 
 ```js
 window.aiware.mountWidget({
   name: 'APP_BAR',
+  widgetId: 'app-bar',
   config: {
     title: 'My Aiware.js Application',
     backgroundColor: '#1f2937',
@@ -118,4 +119,32 @@ window
     console.log(response);
   })
   .catch((err) => console.log(err));
+```
+
+ℹ️ Keep in mind that the `gql` function is not part of aiware.js and comes out of the box with this boilerplate.
+
+## Using Events
+
+To communicate with aiware.js, subscribe to events. To do that, simply call the `on` method on with the event name you need. The second callback will be fired whenever the event is fired.
+[See here for more about the events]()
+Visit [here]() for more about the events.
+
+```js
+window.aiware.on('fileUpload', function (error, file) {
+  if (error) {
+    alert('Error during the file upload!');
+    throw error;
+  }
+
+  console.log(file);
+});
+```
+
+### Removing an event
+
+If you want to delete the event that you registered, simply call the `off` method on the `aiware` instance.
+
+```js
+window.aiware.off('fileUpload');
+// event won't be fired anymore
 ```
