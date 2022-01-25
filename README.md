@@ -10,6 +10,8 @@
 
 To reach out the full documentation visit [the official docs](https://docs.veritone.com/#/sdk/initialize-the-sdk). Also, see the changelog [here](https://github.com/veritone/aiware-apps/releases).
 
+**Pro tip**: Fork [this sandbox](https://codesandbox.io/s/aiwarejs-vanilla-boilerplate-5vmu5?file=/index.html) to get started right ahead in the browser.
+
 <br />
 
 ## Getting Started
