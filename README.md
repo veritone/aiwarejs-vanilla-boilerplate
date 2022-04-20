@@ -8,7 +8,7 @@
 
 ### A simple way to get started using aiware.js with vanilla javascript.
 
-To reach out the full documentation visit [the official docs](https://docs.veritone.com/#/sdk/initialize-the-sdk). Also, see the changelog [here](https://github.com/veritone/aiware-apps/releases).
+To reach out the full documentation visit [the official docs](https://docs.veritone.com/#/sdk/set-up-aiware-sdk). Also, see the changelog [here](https://github.com/veritone/aiware-apps/releases).
 
 **Pro tip**: Fork [this sandbox](https://codesandbox.io/s/veritone-aiwarejs-vanilla-boilerplate-xbhos) to get started right ahead in the browser.
 
@@ -54,7 +54,7 @@ window.aiware.init(
 );
 ```
 
-Visit [here](https://docs.veritone.com/#/sdk/initialize-the-sdk) for more about the `init` method.
+Visit [here](https://docs.veritone.com/#/sdk/set-up-aiware-sdk) for more about the `init` method.
 <br />
 <br />
 
@@ -77,7 +77,7 @@ window.aiware.init(
 ## Mount a widget
 
 You can mount widgets and configure them depending on your needs. <br/>
-Visit [here](https://docs.veritone.com/#/sdk/mount-a-widget) for more about widget mounting.
+Visit [here](https://docs.veritone.com/#/sdk/mount-and-unmount-widget) for more about widget mounting.
 
 ### Example of mounting a widget
 
@@ -130,7 +130,7 @@ window
 ## Using Events
 
 To communicate with aiware.js, subscribe to events. To do that, simply call the `on` method with the event name you need. The second callback will be called whenever an event is fired.
-Visit [here]() for more about the events.
+Visit [here](https://docs.veritone.com/#/sdk/toggle-event-listeners) for more about the events.
 
 ```js
 window.aiware.on('fileUpload', function (error, file) {
